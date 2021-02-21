@@ -1,0 +1,36 @@
+/*div{
+	width: 200px;
+	height: 200px;
+}
+
+#myDiv{
+	background-color: red;
+}
+
+.test{
+	color: pink;
+	font-size: 50px;
+}
+
+div span{
+	font-size: 40px;
+	color: aqua;
+}
+.outer>span{
+	background-color: green;
+}*/
+div,span,p,h1{
+	font-size: 30px;
+	color: red;
+}
+
+div,h1{
+	background-color: yellow;
+}
+
+.test{
+	width: 300px;
+}
+#myTitle{
+	height:300px;
+}

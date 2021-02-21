@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "microsoft yahei";
+	height: 2000px;
+}
+
+ul,ol,li{
+	list-style-type: none;
+}
+
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+/* 初始化样式结束 */
+.header{
+	height: 86px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	z-index: 10;
+	background-color: #fff;
+}
+.header-left,.logo,.lesson-info,.lesson-info>ul>li,.base>ul>li{
+	float: left;
+}
+.logo{
+	margin: 18px 0 0 21px;
+}
+.header-right{
+	float: right;
+}
+.lesson-info>ul>li{
+	height: 86px;
+	line-height: 86px;
+	margin-left: 55px;
+}
+.arrow{
+	width:20px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/下箭头.png) no-repeat;
+	transform: rotate(-90deg);
+}
+.base{
+	margin-top: 33px;
+}
+.base>ul>li{
+	margin-right: 40px;
+}
+.reg{
+	float: left;
+	width: 100px;
+	height: 25px;
+	margin-right: 50px;
+	background-color: #1393ff;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+}
+/* 侧边栏 */
+.side-bar{
+	float: left;
+	position: fixed;
+	left: 0;
+	top:0;
+	height: 100%;
+	width: 150px;
+	border-right: 1px solid #e2e2e2;
+	padding: 21px 25px 0 21px;
+	background-color: #fff;
+}
+.learn-classify{
+	border-bottom: 1px solid #e2e2e2;
+	margin-top: 30px;
+	text-indent: 30px;	
+}
+.none{
+	border-bottom: none;
+}
+.learn-classify>h3{
+	font-size: 14px;
+	color: #444;
+	font-weight: normal;
+}
+.learn-classify>ul{
+	padding:12px 0 25px;
+}
+.learn-classify>ul>li{
+	height: 32px;
+	width: 142px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #666;
+}
+.qianrs{
+	background: url(../img/aside-emb-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.iot{
+	background: url(../img/aside-iot-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.python{
+	background: url(../img/aside-python-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.xing{
+	background: url(../img/aside-xing-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.ui{
+	background: url(../img/aside-ui-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.web{
+	background: url(../img/aside-web-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.java{
+	background: url(../img/aside-java-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.vr{
+	background: url(../img/aside-vr-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.android{
+	background: url(../img/aside-android-h.png) no-repeat;
+	background-position-y: 6px;
+}
+.main-body{
+	float: left;
+	width: 100%;
+	height: 2000px;
+	background-color: bisque;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 250px;
+}
+
+
+
